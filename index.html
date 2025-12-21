@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNU Connectome Lab</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="assets/images/connectomelab_logo.png" alt="Connectome Lab Logo" class="logo">
+                <span class="lab-name">SNU Connectome Lab</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#team" class="nav-link">Team</a></li>
+                <li><a href="#research" class="nav-link">Research</a></li>
+                <li><a href="#publications" class="nav-link">Publications</a></li>
+                <li><a href="#news" class="nav-link">News</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="quote-section">
+                    <p class="quote-text">Study the science of art.</p>
+                    <p class="quote-text">Study the art of science.</p>
+                    <p class="quote-text">Develop your senses – especially learn how to see.</p>
+                    <p class="quote-text">Realize that everything connects to everything else.</p>
+                    <p class="quote-author">- Leonardo da Vinci's Principles for the Development of a Complete Mind -</p>
+                </div>
+
+                <div class="lab-intro">
+                    <h1>Welcome to SNU Connectome Laboratory</h1>
+                    <p>Uncovering the functional anatomy of the human connectomes may allow us to understand the mystery of human minds and behaviors. The impact of this achievement will be felt by all of humanity. Yet, the sheer complexity of the brain network and its relationship with genetic architecture and ever-changing environments makes it extremely challenging to tackle how a brain connectome gives rise to a set of cognitive/emotional/behavioral processes.</p>
+
+                    <p>At SNU Connectome Laboratory in the Department of Psychology, we attempt to tackle questions about the connections that the brain makes – within itself and to others, such as genomes, phenomes, and environments. We use data science and AI as a lens through which we can observe complex scientific data and extract useful representations that might reflect certain characteristics of the reality we may never encounter otherwise.</p>
+
+                    <p>We are particularly interested in how time impacts these connections of the connectome, e.g., development and aging. We are also interested in when these connections go awry in abnormal (e.g., disease) conditions. Crucial is multi-disciplinary convergence through open science across Cognitive Sciences, Sociology, Medicine, Computer Science, Bioinformatics, and many more.</p>
+
+                    <p class="welcome-text">We invite you all to this everlasting journey. Welcome!</p>
+                </div>
+            </div>
+
+            <!-- Latest News Preview -->
+            <div class="latest-news-preview">
+                <h2>Latest Updates</h2>
+                <div class="news-grid" id="latest-news">
+                    <!-- Populated by JavaScript -->
+                </div>
+                <a href="#news" class="btn-primary">View All News →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="section">
+        <div class="container">
+            <h2 class="section-title">Our Team</h2>
+
+            <!-- Filter Controls -->
+            <div class="filter-controls">
+                <div class="filter-group">
+                    <label>Filter by:</label>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">All Members</button>
+                        <button class="filter-btn" data-filter="degree">Degree</button>
+                        <button class="filter-btn" data-filter="department">Department</button>
+                        <button class="filter-btn" data-filter="research">Research Area</button>
+                    </div>
+                </div>
+
+                <!-- Sub-filters (shown when filter type is selected) -->
+                <div class="sub-filters" id="sub-filters">
+                    <!-- Populated by JavaScript based on selected filter -->
+                </div>
+            </div>
+
+            <!-- Team Grid -->
+            <div class="team-grid" id="team-grid">
+                <!-- Populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Research</h2>
+
+            <div class="research-highlight">
+                <h3>THE NEURO-X PROJECT: TOWARDS A LARGE BRAIN MODEL</h3>
+                <p>Unraveling the mysteries of the human brain requires a bold leap beyond traditional neuroscience. Inspired by the success of large language models, the Neuro-X project proposes the development of a Large Brain Model (LBM) – a powerful AI system trained on massive, multi-modal datasets of brain activity and behavior. Neuro-X, echoing ambitious scientific endeavors like Project Apollo, seeks to decode the "language" of the mind, leveraging the brain's own dynamic principles to predict and interpret mental processes.</p>
+
+                <p>Drawing upon György Buzsáki's "inside-out" framework, Neuro-X embraces the brain's action-driven nature, viewing it as a prediction machine constantly generating actions and learning from their consequences. LBMs, utilizing the power of "brain transformers," will capture the brain's self-organized activity patterns, such as neural rhythms, which provide a temporal syntax for communication between brain regions.</p>
+
+                <p>Crucially, LBMs will unlock the dynamic functional connectome, moving beyond static correlation-based approaches. Self-attention mechanisms will enable modeling the evolving patterns of communication between brain regions, revealing subtle changes associated with cognitive states, mental health, and individual differences. Multi-modal transformers will integrate data from fMRI, EEG, and structural MRI, creating a holistic view of brain structure and function, ultimately paving the way for personalized functional connectomics.</p>
+
+                <h4>This unprecedented level of understanding offers transformative possibilities. LBMs could:</h4>
+                <ul>
+                    <li><strong>Decode the Mind:</strong> Accurately predicting emotional responses, thought patterns, and even states of consciousness.</li>
+                    <li><strong>Revolutionize Mental Health Research:</strong> Enable early diagnosis, personalized interventions, and more effective treatments for mental disorders.</li>
+                    <li><strong>Augment Human Potential:</strong> Facilitate the development of cognitive enhancement tools and brain-computer interfaces, expanding the boundaries of human capability.</li>
+                </ul>
+
+                <p>Navigating ethical considerations around data privacy, bias, and agency is paramount. Neuro-X calls for a global brain initiative, uniting neuroscientists, AI experts, and ethicists to make this ambitious vision a reality, pushing the boundaries of knowledge and unlocking the vast potential of the human mind.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="section">
+        <div class="container">
+            <h2 class="section-title">Publications</h2>
+
+            <div class="search-box">
+                <input type="text" id="pub-search" placeholder="Search publications by title, author, or year...">
+            </div>
+
+            <div class="publications-list" id="publications-list">
+                <!-- Populated by JavaScript -->
+                <p class="coming-soon">Publications list coming soon...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Lab News</h2>
+
+            <div class="news-filter">
+                <button class="news-filter-btn active" data-period="latest">Latest News</button>
+                <button class="news-filter-btn" data-period="archive">Archive</button>
+            </div>
+
+            <div class="timeline" id="news-timeline">
+                <!-- Populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Department of Psychology, Seoul National University</p>
+                    <p>Email: connectome@snu.ac.kr</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#research">Research</a></li>
+                        <li><a href="#publications">Publications</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <p>&copy; 2024 SNU Connectome Lab. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
